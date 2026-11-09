@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datalab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h4>DATA MANAGEMENT PROGRAME</h4>
+       <h1><span>VUSI</span>'S EWC DATA-LAB</h1> 
+       <p>Welcome  to Vusi's Data-Lab!</p>
+    </header>
+
+    <div class = "container">
+        <div class="dataset">
+            <p>Dataset</p>
+            <h1>0</h1>
+            <p>dataset available</p>
+        </div>
+        <div class="analysis">
+            <p>Analysis</p>
+            <h1>0</h1>
+            <p>Analysis Completed</p>
+        </div>
+        <div class="users">
+            <p>Users</p>
+            <h1>0</h1>
+            <p>Users Registered</p>
+        </div>
+    </div>
+
+    <div class="upload">
+                <h2>Upload your dataset</h2>
+                <p>Select a CSV or Excel file to begin your analysis.</p>
+                
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="dataset" accept=".csv, .xlsx">
+                <button type = "submit">Upload</button>
+                <button type="view">View</button>
+                <button type="delete">Delete</button>
+                </form>
+        </div>
+
+    <footer>
+        <p>&copy; 2024 Vusi's Data-Lab. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

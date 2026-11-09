@@ -1,0 +1,58 @@
+body {
+    background-color: #a1c6fb51;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    
+
+}
+header{
+    background-color: #796dff;
+    color: white;
+    border: 1px solid #1500fc;
+    width: 97%;
+    padding: 1%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.dataset, 
+.analysis,
+.users {
+    background-color: #796dff;
+    color: white;
+    margin: 1px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    border: 1px solid #1500fc;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.upload{
+    background-color: #796dff;
+    color: white;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 97%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #1500fc;
+
+    
+
+}
+footer {
+    background-color: #796dff;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
